@@ -1,0 +1,35 @@
+
+Django==1.2.3
+
+# For Database
+# ===========================
+South==0.7.2
+MySQL-python==1.2.3
+# psycopg2 is required if you want to use PostgreSQL
+psycopg2==2.2.2
+
+# For Production Server
+# ===========================
+flup==1.0.3.dev-20100525
+django-compressor==0.5.3
+
+# For Admin Interface
+# ===========================
+fullhistory==0.3.0-final
+feedparser==4.1
+django-admin-tools==0.3.0
+-e svn+http://django-grappelli.googlecode.com/svn/trunk@1258#egg=django_grappelli
+
+# For Developers
+# ===========================
+ipython==0.10.1
+docutils==0.7
+django-debug-toolbar==0.8.3
+Fabric==0.9.2
+pylint==0.21.3
+nose==0.11.4
+djangosanetesting==0.5.6
+django-extensions==0.5
+Werkzeug==0.6.2
+Sphinx==1.0.4
+BeautifulSoup==3.1.0.1
