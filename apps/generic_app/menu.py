@@ -14,12 +14,15 @@ class CustomMenu(Menu):
         self.children.append(items.Bookmarks(title='Bookmarks'))
 
         self.children.append(items.AppList(
-            title='Applications',
-            exclude_list=('django.contrib',)
+            title='Master Data',
+            include_list=('employee.models.Employee',
+                          'employee.models.Unit',
+                          'employee.models.Designation',
+                          'employee.models.Status', )
         ))
         self.children.append(items.AppList(
-            title='Administration',
-            include_list=('django.contrib',)
+            title='Transactions',
+            include_list=('employee.models.SalaryDetail',)
         ))
 
     def init_with_context(self, context):

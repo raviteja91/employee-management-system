@@ -8,5 +8,5 @@ runfastcgi(method="threaded",
            minspare="1",
            maxspare="1",
            host="127.0.0.1",
-           port="9027",
+           port="9036",
           )

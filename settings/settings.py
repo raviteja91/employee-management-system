@@ -14,9 +14,9 @@ sys.path.insert(0, os.path.join(PROJECT_ROOT, "apps"))
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-APPLICATION_NAME = 'employee_management_system'
-APPLICATION_SHORT_NAME = 'employee_management_system'
-ORGANIZATION = ''
+APPLICATION_NAME = 'Employee Management System'
+APPLICATION_SHORT_NAME = 'EMS'
+ORGANIZATION = 'Ramakrishna Mission Vidyalaya'
 TITLE = '%s | %s' % (APPLICATION_NAME, ORGANIZATION)
 
 ADMINS = (
@@ -144,7 +144,7 @@ INSTALLED_APPS = (
 
     # My apps
     'generic_app',
-    'sample_app',
+    'employee',
 )
 
 FIXTURE_DIRS = (
